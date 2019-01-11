@@ -71,7 +71,6 @@ func (p *XSUAAProvider) GetEmailAddress(s *SessionState) (string, error) {
 	if err == nil && email != "" {
 		return email, err
 	}
-
 	email, err = json.Get("userPrincipalName").String()
 
 	if err != nil {
