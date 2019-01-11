@@ -32,8 +32,8 @@ func New(provider string, p *ProviderData) Provider {
 	case "oidc":
 		return NewOIDCProvider(p)
 	case "xsuaa":
-		return NewGoogleProvider(p)
+		return NewXSUAAProvider(p)
 	default:
-		return NewGitHubProvider(p)
+		return NewGoogleProvider(p)
 	}
 }
