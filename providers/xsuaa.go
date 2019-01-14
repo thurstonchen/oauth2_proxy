@@ -2,9 +2,9 @@ package providers
 
 import (
 	"errors"
-	"fmt"
-	"github.com/bitly/go-simplejson"
-	"github.com/bitly/oauth2_proxy/api"
+	//"fmt"
+	//"github.com/bitly/go-simplejson"
+	"github.com/thurstonchen/oauth2_proxy/api"
 	"log"
 	"net/http"
 	"net/url"
